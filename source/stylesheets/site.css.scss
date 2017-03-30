@@ -1,24 +1,114 @@
-body {
-  background-color: #fbc547;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
+body,h1 {font-family: 'Source Code Pro', monospace;}
+
+h1 {letter-spacing: 6px}
+
+.w3-row-padding img {margin-bottom: 12px}
+
+
+
+/***************
+contact
+**************/
+
+.contact table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.contact {
   text-align: center;
 }
 
-a {
-  color: rgba(#000, 0.7);
-
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
-  }
+.contact br {
+  display: block;
+  margin: 10px 0;
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+.contact table {
+  border-collapse: collapse;
+  border-color: white;
+}
+
+.contact th {
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 60px
+}
+
+.contact .ico {
+    display: block;
+    width: 40px;
+    margin: 0 auto 30px;
+}
+
+.contact .ico:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=100); 
+}
+
+.contact .button {
+  transition: all 0.3s ease-out;
+}
+
+.contact .overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.contact .overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.contact .popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.contact .popup h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.contact .popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.contact .popup .close:hover {
+  color: #06D85F;
+}
+
+.contact .popup .content {
+  color: black;
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
 }
