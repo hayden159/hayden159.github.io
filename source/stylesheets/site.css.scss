@@ -112,3 +112,81 @@ contact
     width: 70%;
   }
 }
+
+
+
+/***************
+skills
+**************/
+.skills .active {
+  background-color: white !important;
+  color: black !important; 
+}
+
+
+.skills {
+	color: grey;
+	text-align: center;
+}
+
+.favorite-skills span {
+	  color: white;
+	  
+
+	  margin: 10px;
+	  
+	  background: #707070;
+  	  border: 1px;
+	  border-radius: 5px;
+	  padding: 8px 10px;
+	  
+	  text-align: center;
+	  display: inline-block;
+
+	  
+		/**click events**/
+		cursor: pointer;
+		user-select: none;
+}
+
+
+
+.experience-with span, .code-project span {
+	  color: white;
+	  
+	  font-size: 75%;
+
+	  margin: 10px;
+	  
+	  background: #888888;
+  	  border: 1px;
+	  border-radius: 5px;
+	  padding: 6px 8px;
+	  
+	  text-align: center;
+	  display: inline-block;
+
+	  
+		/**click events**/
+		cursor: pointer;
+		user-select: none;
+}
+
+
+/***************
+projects
+**************/
+.project {
+	color: black;
+}
+
+#projects a {
+	color: Navy;
+}
+
+.code-project {
+	margin: 20px;
+	padding: 20px;
+}
+
+
