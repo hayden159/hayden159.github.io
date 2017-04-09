@@ -3,8 +3,8 @@
   <head>
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
 
@@ -12,7 +12,7 @@
     <title>Stephanie</title>
 
       <link href="stylesheets/site.css" rel="stylesheet" />
-    <script src="/javascripts/site.js"></script>
+    
   </head>
 
   <body class="code">
@@ -39,6 +39,150 @@
 	<!-- End header -->
 
     
+<div class ="container skills">
+	<p>Select tags to sort code projects by relevance.</p>
+
+	<div class="favorite-skills">
+	  <span class="skill">Ruby</span>
+	  <span class="skill">Java</span>
+	  <span class="skill">C</span>
+	  <span class="skill">Javascript</span>
+	  <span class="skill">HTML/CSS</span>
+	  <span class="skill">Ruby on Rails</span>
+	  <span class="skill">Testing</span>
+	  <span class="skill">Continuous integration</span>
+	  <span class="skill">Object oriented</span>
+	</div>
+
+	<div class="experience-with">
+	  <span class="skill">Github</span>
+	  <span class="skill">Threads</span>
+	  <span class="skill">Semaphores</span>
+	  <span class="skill">Shared memory</span>
+	  <span class="skill">C++</span>
+	  <span class="skill">C#</span>
+	  <span class="skill">x86 assembly</span>
+	  <span class="skill">SQL</span>
+	  <span class="skill">Tactical radio software</span>
+	  <span class="skill">JIRA</span>
+	  <span class="skill">Bamboo</span>
+	  <span class="skill">Visual Studio</span>
+	  <span class="skill">MiddleMan</span>
+	  <span class="skill">Nokogiri</span>
+	  <span class="skill">Eclipse</span>
+	  <span class="skill">XML/RSS</span>
+	  <span class="skill">Embedded ruby</span>
+	</div>
+</div>
+
+<div class ="container" id="projects">
+	<div class ="code-project w3-card-2">
+	  <p>Migrated this site from <a href="https://stephaniehayden.wordpress.com">my wordpress blog</a>. Before, I used wordpress to generate all my pages by typing my content into their text editor. After taking a web applications course, I built this website using my own HTML, CSS, and JavaScript. I used MiddleMan along with .yml data pages, embedded ruby, and a single-point-of-change layout.</p>
+	  <span>Javascript</span>
+	  <span>HTML</span>
+	  <span>MiddleMan</span>
+	  <span>CSS</span>
+	  <span>Embedded ruby</span>
+	  <span>Github</span>
+	  <a href="#" class="link">hayden159.github.io</a>
+	</div>
+
+	<div class ="code-project w3-card-2">
+	  <p>Used semaphores, shared memory and fork system calls to create multiple synchronized processes in C.</p>
+	  <span>C</span>
+	  <span>Semaphores</span>
+	</div>
+
+	<div class ="code-project w3-card-2">
+	  <p>Implemented a Ruby Program which submitted a search at jobsatosu.com, parsed the HTML response using Nokogiri, and then generated a new webpage with a custom CSS style sheet. Worked with four other group members.</p>
+	  <span>Ruby</span>
+	  <span>HTML</span>
+	  <span>Nokogiri</span>
+	  <span>CSS</span>
+	  <span>Github</span>
+	</div>
+
+	<div class ="code-project w3-card-2">
+	  <p>Implemented Kruskal’s algorithm (a Minimum Spanning Tree problem) in Java. </p>
+	  <span>Java</span>
+	</div>
+	
+	<div class ="code-project w3-card-2">
+	  <p>Implemented a Javascript calculator with four other group members.</p>
+	  <span>Javascript</span>
+	  <span>HTML</span>
+	  <span>MiddleMan</span>
+	  <span>CSS</span>
+	  <span>Github</span>
+	</div>
+
+	<div class ="code-project w3-card-2">
+	  <p>Implemented an interpreter that read Brain Language (a Turing complete language that only uses the characters “><+-.,[]”) and executed it’s instructions in x86 Assembly. </p>
+	  <span>x86 assembly</span>
+	</div>
+	
+	<div class ="code-project w3-card-2">
+	  <p>Implemented a multi-dimensional matrix operation program that uses function pointers to update a collection of C structs </p>
+	  <span>C</span>
+	</div>
+	
+	<div class ="code-project w3-card-2">
+	  <p>Implemented a Sorting Machine class layered on Queue and Array using heap sort in Java. </p>
+	  <span>Java</span>
+	  <span>Object Oriented</span>
+	</div>
+	
+	<div class ="code-project w3-card-2">
+	  <p>Implemented a Java-based RSS reader that output HTML index pages for an RSS feed.</p>
+	  <span>Java</span>
+	  <span>HTML</span>
+	  <span>XML/RSS</span>
+	</div>
+	
+	<div class ="code-project w3-card-2">
+	  <p>Currently implementing a Ruby on Rails project with four other group members. It will act as a registration system for summer camps at OSU. Parents will be able to add thier camper to the system and register them for a fixed number of camps. The application will validate that the camper is not placed in camps with conflicting times. It will have a user friendly graphical interface. It will use an SQLite database.</p>
+	  <span>Ruby on Rails</span>
+	  <span>HTML</span>
+	  <span>CSS</span>
+	  <span>SQL</span>
+	  <span>Github</span>
+	</div>
+	
+	<div class ="code-project w3-card-2">
+	  <p>Implemented a Java program that used Fermat’s “little” theorem to find the likeliness of large numbers being prime in Java. Implemented this project in C later, and then in x86 Assembly.</p>
+	  <span>Java</span>
+	  <span>C</span>
+	  <span>x86 Assembly</span>
+	</div>
+	
+	<div class ="code-project w3-card-2">
+	  <p>Implemented JUnit test cases for many projects in Java.</p>
+	  <span>Testing</span>
+	  <span>Java</span>
+	  <span>Eclipse</span>
+	</div>
+	
+	<div class ="code-project w3-card-2">
+	  <p>Wrote Ruby wrapper scripts to get a new continuous application to work properly.</p>
+	  <span>Testing</span>
+	  <span>Continuous integration</span>
+	  <span>Tactical radio software</span>
+	  <span>Bamboo</span>
+	</div>
+	
+	<div class ="code-project w3-card-2">
+	  <p>Resolved multiple software bugs in a C++ source code repository 12 million lines of code long. Updated status of the bugs and documented progress in JIRA.</p>
+	  <span>C++</span>
+	  <span>Tactical radio software</span>
+	  <span>JIRA</span>
+	  <span>Visual Studio</span>
+	</div>
+
+   </div>
+
+
+</div>
+
 
 	</div>
 	<!-- End page -->
@@ -59,7 +203,7 @@
 		  </tr>
 		</table>
 
-	 	<p class="w3-center">stephanie hayden professional resume and portfolio</p>
+	 	<p class="w3-center">professional resume and portfolio by stephanie hayden</p>
 
 		<!-- Popup -->
 
@@ -75,6 +219,8 @@
 	</div>
 	</footer>
 	<!-- End footer -->
+	
+      <script src="javascripts/site.js"></script>
 
   </body>
 </html>
