@@ -118,6 +118,10 @@ contact
 /***************
 skills
 **************/
+.skills p {
+  font-size: 75%;
+}
+
 .skills .active {
   background-color: white !important;
   color: black !important; 
@@ -154,7 +158,7 @@ skills
 .experience-with span, .code-project span {
 	  color: white;
 	  
-	  font-size: 75%;
+	  font-size: 80%;
 
 	  margin: 10px;
 	  
