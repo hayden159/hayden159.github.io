@@ -1,5 +1,6 @@
 body, h1 {
-  font-family: 'Source Code Pro', monospace; }
+  font-family: 'Source Code Pro', monospace;
+  color: gray; }
 
 h1 {
   letter-spacing: 6px; }
@@ -148,3 +149,9 @@ projects
 .code-project {
   margin: 20px;
   padding: 20px; }
+
+/***************
+homepage 
+**************/
+.index .container {
+  padding: 50px 20px; }
