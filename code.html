@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="stylesheets/site.css" rel="stylesheet" />
 
 	<script
@@ -17,37 +18,82 @@
 	  crossorigin="anonymous"></script>
 
  	<!-- Use title if it's in the page YAML frontmatter -->
-    	<title>Stephanie</title>
+    	<title>S. Hayden</title>
 
     
-  </head>
+</head>
+	<body class="code">
 
-  <body class="code">
+  <!-- Page Container -->
+  <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-	<!-- Page -->
-	<div class="w3-content" style="max-width:1500px">
+    <!-- The Grid -->
+    <div class="w3-row-padding">
 
-	<!-- Header -->
-	<header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
-	  <h1 class="w3-xlarge">STEPHANIE HAYDEN</h1>
-	  <h1>software developer</h1>
-	  
-	  <div class="w3-padding-32">
-		<div class="w3-bar w3-border">
-		  <a href="index.html" class="w3-bar-item w3-button w3-hide-small">About</a>
-		  <a href="code.html" class="w3-bar-item w3-button">Code</a>
-		  <a href="experience.html" class="w3-bar-item w3-button">Experience</a>
-		  <a href="entrepreneurial.html" class="w3-bar-item w3-button w3-hide-small">Entrepreneurial</a>
-		  <a href="academics.html" class="w3-bar-item w3-button ">Academics</a>
-		  <a href="art.html" class="w3-bar-item w3-button w3-hide-medium w3-hide-small">Art</a>
-		</div>
-	  </div>
-	</header>
-	<!-- End header -->
+      <!-- Left Column -->
+      <div class="w3-third">
 
-    
-<div class ="container skills">
-	<p>Select tags to sort code projects by relevance.</p>
+
+        <div class="w3-white w3-text-grey w3-card-4">
+          <div class="w3-display-container">
+            <img src="images/NickAkins.jpg" style="width:100%" alt="photo">
+          </div>
+          <div class="w3-container">
+	          <h2>S. Hayden</h2>
+            <p><i class="fa fa-laptop fa-fw w3-margin-right w3-large w3-text-indigo"></i>Software Developer</p>
+            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-indigo"></i>Columbus, OH</p>
+            <hr>
+				  </div>
+			  </div>
+        <br>
+        <!-- Contact -->
+	      <div class="w3-indigo w3-text-white w3-card-4">
+          <div class="w3-container">
+	        <div class="contact center">
+				    <table align="center"><tr>
+            <th><a href="https://www.linkedin.com/in/stephanie-hayden-b27178112/"> <img class="ico" src="images/linkedin.svg" ></a></th>
+				    <th><a class="button" href="#popup1"><img class="ico" src="images/envelope.svg" ></a></th>
+				    <th><a class="button" href="https://github.com/hayden159"><img class="ico" src="images/github.png" ></a></p></th>
+            </tr></table>
+	 	      <p class="w3-text-white w3-center">professional resume and portfolio by stephanie hayden</p>
+		       <br>
+          </div>
+
+          <!-- Popup -->
+		      <div id="popup1" class="overlay">
+			      <div class="popup">
+				      <h2>Buckeyemail</h2>
+				      <a class="close" href="#">&times;</a>
+				      <div class="content">
+					      hayden.159@osu.edu
+				      </div>
+			      </div>
+		      </div>
+        </div>
+
+        </div> <!-- End contact -->
+      </div> <!-- End Left -->
+
+
+      <!-- Right Column -->
+      <div class="w3-twothird">
+
+      <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+			      <h2 class="w3-text-indigo">Code</h2>
+		        <a href="index.html" class="w3-text-grey w3-bar-item w3-button ">About</a>
+		        <a href="code.html" class="w3-text-grey w3-bar-item w3-button">Code</a>
+		        <a href="experience.html" class="w3-text-grey w3-bar-item w3-button">Experience</a>
+		        <a href="entrepreneurial.html" class="w3-text-grey w3-bar-item w3-button ">Entrepreneurial</a>
+		        <a href="academics.html" class="w3-text-grey w3-bar-item w3-button ">Academics</a>
+      </div>
+
+      <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+        
+
+<div class="code">
+<br>
+<div class ="skills">
+	<p class="tiny">Select tags to sort code projects by relevance.</p>
 
 	<div class="favorite-skills">
 	  <span class="skill">Ruby</span>
@@ -81,9 +127,19 @@
 	  <span class="skill">XML/RSS</span>
 	  <span class="skill">Embedded ruby</span>
 	</div>
-</div>
 
-<div class ="container" id="projects">
+	<div id="projects">
+	<div class ="code-project w3-card-2">
+	  <p>Implemented a Ruby on Rails project with four other group members. It is a registration system for summer camps at OSU. Parents are able to add thier child to the system and register them for multiple number of camps. The application validates that the camper is not placed in camps with conflicting times, and that he/she is the correct age. It has a user friendly graphical interface. It uses an SQLite database.</p>
+	  <span>Ruby on Rails</span>
+	  <span>HTML</span>
+	  <span>CSS</span>
+	  <span>SQL</span>
+	  <span>Github</span>
+	<a href="http://camprecky2017.herokuapp.com/" class="link">Camp Recky Heroku App</a>
+	</div>
+
+
 	<div class ="code-project w3-card-2">
 	  <p>Migrated this site from <a href="https://stephaniehayden.wordpress.com">my wordpress blog</a>. Before, I used wordpress to generate all my pages by typing my content into their text editor. After taking a web applications course, I built this website using my own HTML, CSS, and JavaScript. I used MiddleMan along with .yml data pages, embedded ruby, and a single-point-of-change layout.</p>
 	  <span>Javascript</span>
@@ -149,14 +205,6 @@
 	  <span>XML/RSS</span>
 	</div>
 	
-	<div class ="code-project w3-card-2">
-	  <p>Currently implementing a Ruby on Rails project with four other group members. It will act as a registration system for summer camps at OSU. Parents will be able to add thier camper to the system and register them for a fixed number of camps. The application will validate that the camper is not placed in camps with conflicting times. It will have a user friendly graphical interface. It will use an SQLite database.</p>
-	  <span>Ruby on Rails</span>
-	  <span>HTML</span>
-	  <span>CSS</span>
-	  <span>SQL</span>
-	  <span>Github</span>
-	</div>
 	
 	<div class ="code-project w3-card-2">
 	  <p>Implemented a Java program that used Fermat’s “little” theorem to find the likeliness of large numbers being prime in Java. Implemented this project in C later, and then in x86 Assembly.</p>
@@ -189,50 +237,22 @@
 	  <span>JIRA</span>
 	  <span>Visual Studio</span>
 	</div>
-
-   </div>
-
-
+	</div>
+</div>
 </div>
 
 
-	</div>
-	<!-- End page -->
+
+      </div>
+
+      </div> <!-- End right column-->
 
 
-	<!-- Footer -->
-	<footer class="w3-container w3-padding-64 w3-dark-grey w3-center w3-large">
-
-	<div class="contact">
-		<table class="center">	
-		  <tr>
-			<th>
-				<a href="https://www.linkedin.com/in/stephanie-hayden-b27178112/"> <img class="ico" src="images/linkedin.svg" > </a>
-			</th>
-			<th>
-				<a class="button" href="#popup1"><img class="ico" src="images/envelope.svg" ></a>
-			</th>
-		  </tr>
-		</table>
-
-	 	<p class="w3-center">professional resume and portfolio by stephanie hayden</p>
-
-		<!-- Popup -->
-
-		<div id="popup1" class="overlay">
-			<div class="popup">
-				<h2>Buckeyemail</h2>
-				<a class="close" href="#">&times;</a>
-				<div class="content">
-					hayden.159@osu.edu
-				</div>
-			</div>
-		</div>
-	</div>
-	</footer>
-	<!-- End footer -->
-	
-      <script src="javascripts/site.js"></script>
+    </div> <!-- End Grid -->
+  </div> <!--End Page Container -->
+ 
+  
+  <script src="javascripts/site.js"></script>
 
   </body>
 </html>
