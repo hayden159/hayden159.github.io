@@ -1,0 +1,7 @@
+<% @this_page = "Art" %>
+
+<% Dir.foreach('images/art/') do |pic| %>
+  <% next if pic == '.' or pic == '..' %>
+  <img class="art" src=<%= "images/art/" + pic %> alt="art piece">
+	<br>
+<% end %>

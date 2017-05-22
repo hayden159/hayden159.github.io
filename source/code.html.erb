@@ -1,6 +1,10 @@
 
-<div class ="container skills">
-	<p>Select tags to sort code projects by relevance.</p>
+<% @this_page = "Code" %>
+
+<div class="code">
+<br>
+<div class ="skills">
+	<p class="tiny">Select tags to sort code projects by relevance.</p>
 
 	<div class="favorite-skills">
 	  <% data.skills.favorites.each do |f| %>
@@ -13,9 +17,19 @@
 	  <span class="skill"><%= f %></span>
 	  <% end %>
 	</div>
-</div>
 
-<div class ="container" id="projects">
+	<div id="projects">
+	<div class ="code-project w3-card-2">
+	  <p>Implemented a Ruby on Rails project with four other group members. It is a registration system for summer camps at OSU. Parents are able to add thier child to the system and register them for multiple number of camps. The application validates that the camper is not placed in camps with conflicting times, and that he/she is the correct age. It has a user friendly graphical interface. It uses an SQLite database.</p>
+	  <span>Ruby on Rails</span>
+	  <span>HTML</span>
+	  <span>CSS</span>
+	  <span>SQL</span>
+	  <span>Github</span>
+	<a href="http://camprecky2017.herokuapp.com/" class="link">Camp Recky Heroku App</a>
+	</div>
+
+
 	<div class ="code-project w3-card-2">
 	  <p>Migrated this site from <a href="https://stephaniehayden.wordpress.com">my wordpress blog</a>. Before, I used wordpress to generate all my pages by typing my content into their text editor. After taking a web applications course, I built this website using my own HTML, CSS, and JavaScript. I used MiddleMan along with .yml data pages, embedded ruby, and a single-point-of-change layout.</p>
 	  <span>Javascript</span>
@@ -81,14 +95,6 @@
 	  <span>XML/RSS</span>
 	</div>
 	
-	<div class ="code-project w3-card-2">
-	  <p>Currently implementing a Ruby on Rails project with four other group members. It will act as a registration system for summer camps at OSU. Parents will be able to add thier camper to the system and register them for a fixed number of camps. The application will validate that the camper is not placed in camps with conflicting times. It will have a user friendly graphical interface. It will use an SQLite database.</p>
-	  <span>Ruby on Rails</span>
-	  <span>HTML</span>
-	  <span>CSS</span>
-	  <span>SQL</span>
-	  <span>Github</span>
-	</div>
 	
 	<div class ="code-project w3-card-2">
 	  <p>Implemented a Java program that used Fermat’s “little” theorem to find the likeliness of large numbers being prime in Java. Implemented this project in C later, and then in x86 Assembly.</p>
@@ -121,8 +127,8 @@
 	  <span>JIRA</span>
 	  <span>Visual Studio</span>
 	</div>
-
-   </div>
-
-
+	</div>
 </div>
+</div>
+
+
