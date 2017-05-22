@@ -154,4 +154,7 @@ projects
 homepage 
 **************/
 .index .container {
-  padding: 50px 20px; }
+  padding: 50px 60px 100px 60px; }
+
+.index .center {
+  text-align: center; }
