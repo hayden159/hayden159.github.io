@@ -27,18 +27,19 @@ contact
 
 .contact table {
   border-collapse: collapse;
-  border-color: white; }
+  text-align: center;
+  width: 100%; }
 
 .contact th {
-  padding-top: 80px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 60px; }
+  max-width: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20%;
+  padding-bottom: 20%; }
 
 .contact .ico {
-  display: block;
-  width: 30px;
-  margin: 0 auto 20px; }
+  width: 100%;
+  display: block; }
 
 .contact .ico:hover {
   opacity: 0.3;
