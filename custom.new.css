@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+.inside-container {
+ background-color: #1f88ff;
+ padding: 2px 25px;
+ height: 70vh;
+ border-radius: 2px;
+}
+
+h4 {
+    font-size: 6vw;
+}
+
+.ticket {
+    text-align: center; 
+    margin: 0px;
+    padding: 0px;
+    padding-right: 5px;
+    padding-top: 2px;
+}
+
+
+
+
+.center {
+    text-align: center;
+}
+
+span.active {
+    color: white;
+}
+
+.row-horizon {
+    margin: 0px 5px;
+}
+
+.title {
+ padding-top: 5px 5px;    
+}
+
+.event {
+    padding: 0px;
+    margin: 0px;
+}
+
+.left {
+    text-align: left;
+}
+
+
+img#banner-image  {
+    width: inherit;
+}
+
+.heading, .inside-container {
+        margin: 0px;
+}
+
+.heading  {
+   background-color: #1f88ff; 
+    padding: 18px 10px 8px;
+    font-size: 5vw;
+}
+
+
+div.left {
+    padding-left: 8px;   
+}
+
+
+
+h3.ticket-label, h2.ticket-label {
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+    font-size: 4vw; 
+    text-align: left;
+    color: black;
+}
+
+
+td h4 {
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+
+img.appleWallet{
+   width: 50%;
+   margin: 20px 0px;
+}
+
+
+#qrCode{
+    height: 35vw;
+    float: none;
+    margin: 0 auto;
+    display: block;
+}
+
+#qrContainer{
+    margin-top: 30px;
+    background: white;
+    border-radius: 10px;
+    width: 43vw;
+    height: 44vw;
+    padding: 9px 9px 2px 9px;
+}
+
+#barcodeNumber{
+    padding-top: 4px;
+    color: grey;
+    text-align: center;
+    font-size: 4vw;
+    display: block;
+}
+
+
