@@ -7,7 +7,11 @@ body {
 
 
 .inside-container {
- background-color: #1f88ff;
+    background: #1f88ff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1f88ff, #4da0ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1f88ff, #4da0ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1f88ff, #4da0ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1f88ff, #4da0ff); /* Standard syntax */
  padding: 2px 25px;
  height: 57vh;
 }
