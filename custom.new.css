@@ -9,12 +9,13 @@ body {
 .inside-container {
  background-color: #1f88ff;
  padding: 2px 25px;
- height: 62vh;
+ height: 55vh;
  border-radius: 2px;
 }
 
 h4 {
-    font-size: 6vw;
+    font-size: 4vw;
+    padding-top: 2px;
 }
 
 .ticket {
@@ -66,8 +67,8 @@ img#banner-image  {
 
 .heading  {
    background-color: #1f88ff; 
-    padding: 18px 10px 8px;
-    font-size: 5vw;
+    padding: 10px 10px 4px;
+    font-size: 4vw;
 }
 
 
@@ -81,7 +82,7 @@ h3.ticket-label, h2.ticket-label {
     text-transform: uppercase;
     padding: 0px;
     margin: 10px 0px 0px 0px;
-    font-size: 4vw; 
+    font-size: 3vw; 
     text-align: left;
     color: black;
 }
@@ -94,7 +95,7 @@ td h4 {
 }
 
 img.appleWallet{
-   width: 50%;
+   width: 30%;
    margin: 20px 0px;
 }
 
@@ -107,7 +108,8 @@ img.appleWallet{
 }
 
 #qrContainer{
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
     background: white;
     border-radius: 10px;
     width: 43vw;

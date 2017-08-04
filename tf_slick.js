@@ -3,13 +3,20 @@
 
 $(function() {
    $(document).ready(function(){
-       
+       $(window).on('resize', function() {
+          $('#quickfit').quickfit({
+                min: 10,
+                max: 25,
+                truncate: true
+            });         
+
+        });
+    $(window).trigger('resize');    
        
     var tickets = $('.ticket');
     console.log("tickets: "+tickets.length);
     $('.horizon').slick({
         dots:true,
-        appendDots: $('#dots-box'),
         prevArrow: false,
         nextArrow: false
     });
