@@ -1,5 +1,5 @@
 body {
-    background-color: #1f88ff;
+    background-color: black;
     overflow-y: hidden;
     overflow-x: hidden;
     width: 100%;
@@ -25,7 +25,9 @@ h4 {
     padding-top: 2px;
 }
 
-
+#dots-box {
+    height: 4vh;   
+}
 
 
 .center {

@@ -8,7 +8,8 @@ $(function() {
     var tickets = $('.ticket');
     console.log("tickets: "+tickets.length);
     $('.horizon').slick({
-        dots:true
+        dots:true,
+        appendDots: $('#dots-box')
     });
    });
 });
