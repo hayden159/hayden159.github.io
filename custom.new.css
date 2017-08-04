@@ -13,7 +13,7 @@ body {
     background: -moz-linear-gradient(#1f88ff,#80bbff); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#1f88ff, #80bbff); /* Standard syntax */
  padding: 2px 25px;
- height: 57vh;
+ height: 60vh;
 }
 
 h4 {
