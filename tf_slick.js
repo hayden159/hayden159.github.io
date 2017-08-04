@@ -8,6 +8,9 @@ $(function() {
            
         }
        
+    
+    $('.inside-container').css("height", window.innerHeight*0.7 );
+       
     //if title is longer than 30 characters, add id to dynamically resize
     $('.event').each(function( index ) {
         console.log($(this).text().length);
