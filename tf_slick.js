@@ -9,7 +9,9 @@ $(function() {
     console.log("tickets: "+tickets.length);
     $('.horizon').slick({
         dots:true,
-        appendDots: $('#dots-box')
+        appendDots: $('#dots-box'),
+        prevArrow: false,
+        nextArrow: false
     });
    });
 });
