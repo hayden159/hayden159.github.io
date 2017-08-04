@@ -4,8 +4,10 @@
 $(function() {
    $(document).ready(function(){
        function longSoResize(el) {
+           var newText = el.text();
+           console.log(newText);
+           el.text(newText.substring(0, 52)+"...");
            el.addClass('long-title');
-           
         }
        
     
@@ -27,7 +29,8 @@ $(function() {
     $('.horizon').slick({
         dots:true,
         prevArrow: false,
-        nextArrow: false
+        nextArrow: false,
+        infinite: false
     });
    });
 });

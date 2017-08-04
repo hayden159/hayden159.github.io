@@ -100,7 +100,7 @@ img.appleWallet{
 
 
 #qrCode{
-    height: 35vw;
+    max-height: 35vw;
     float: none;
     margin: 0 auto;
     display: block;
