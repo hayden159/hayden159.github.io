@@ -9,12 +9,11 @@ body {
 .inside-container {
  background-color: #1f88ff;
  padding: 2px 25px;
- height: 55vh;
- border-radius: 2px;
+ height: 57vh;
 }
 
 h4 {
-    font-size: 4vw;
+    font-size: 4.8vw;
     padding-top: 2px;
 }
 
@@ -67,7 +66,7 @@ img#banner-image  {
 
 .heading  {
    background-color: #1f88ff; 
-    padding: 10px 10px 4px;
+    padding: 10px 10px 10px;
     font-size: 4vw;
 }
 
@@ -82,7 +81,7 @@ h3.ticket-label, h2.ticket-label {
     text-transform: uppercase;
     padding: 0px;
     margin: 10px 0px 0px 0px;
-    font-size: 3vw; 
+    font-size: 3.5vw; 
     text-align: left;
     color: black;
 }
@@ -113,16 +112,21 @@ img.appleWallet{
     background: white;
     border-radius: 10px;
     width: 43vw;
-    height: 44vw;
+    height: 45vw;
     padding: 9px 9px 2px 9px;
 }
-
 #barcodeNumber{
     padding-top: 4px;
     color: grey;
     text-align: center;
     font-size: 4vw;
     display: block;
+}
+
+.long-title {
+    padding-top: 2px;
+    font-size:3.5vw; 
+    white-space: nowrap;   
 }
 
 

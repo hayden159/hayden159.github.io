@@ -3,15 +3,21 @@
 
 $(function() {
    $(document).ready(function(){
-       $(window).on('resize', function() {
-          $('#quickfit').quickfit({
-                min: 10,
-                max: 25,
-                truncate: true
-            });         
-
-        });
-    $(window).trigger('resize');    
+       function longSoResize(el) {
+           el.addClass('long-title');
+           
+        }
+       
+    //if title is longer than 30 characters, add id to dynamically resize
+    $('.event').each(function( index ) {
+        console.log($(this).text().length);
+      if ($(this).text().length >= 38) {
+            longSoResize($(this));
+      }
+    });
+       
+    
+       
        
     var tickets = $('.ticket');
     console.log("tickets: "+tickets.length);
