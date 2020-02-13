@@ -10,14 +10,16 @@ Kony Development
 Programmer Analyst II | Jan 2019-Current
 Flutter Development - App Rewrite
 - Used Flutter Framework and Dart language to rewrite the Kony mobile application 
-- Wrote unit tests using Flutter framework to maintain >90% code coverage
+- Wrote unit tests using Flutter framework to maintain 90% code coverage
 - Added functionality to native web view plugins to support javascript callbacks and web authorization using cookies. The plugins were written in Java and Objective C.
 - Lead development for each project that used web views with javascript callbacks
+- Lead and managed overall health of projects dealing with a money management 3rd party software called Strands
 - Used Git for repository management and Jenkins to deploy client code to local Enterprise App Store
+- Leveraged Splunk to debug server side logs and support middleware team
 - Wrote CRC (Class Responsibility Collaborator) documents for technical design on new projects
-- Supported off shore team and lead information sessions about coding best practices
+- Supported off shore team and lead information sessions about web views
 - Worked with various teams in agile project delivery
-UI/UX Liaison
+UI/UX Specialist
 - Built, unit tested, and maintained reusable UI component library for development team to use. The library included theme ui items created by the UX team such as input fields, buttons, tab elements etc. 
 - Maintained documentation about the library and made it available to various teams, reducing the need for detailed mockups and saving time in project lifecycle. The documentation also reduced back-and-forth time for UI-related defects. 
 - Improved app efficiency by reducing image assets and using material design icons and .svg assets instead of .png. 
